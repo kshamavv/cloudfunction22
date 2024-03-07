@@ -1,6 +1,6 @@
 # Cloud Function 2
 locals {
-  function_source_path1 = "C:/Users/kshgo/OneDrive/Desktop/usecasee/cf2"
+  function_source_path1 = "cf2"
 }
 data "archive_file" "function1_zip" {
   type        = "zip"
